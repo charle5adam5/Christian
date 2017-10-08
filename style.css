@@ -1,0 +1,55 @@
+body {
+ font-family: 'Cinzel Decorative', cursive;
+ background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#info {
+  background-image: url("./images/christian.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 40em;
+}
+#info p {
+ align-self: center;
+ background-color: white;
+ text-shadow: 2px 0px 1px black;
+ padding: 0 .25em 0 .25em;
+ color: white;
+ font-size: 3em;
+}
+
+#nav {
+  flex-flow: column;
+  align-items: center;
+  width: 40em;
+  background-color: white;
+}
+a {
+ color: black;
+ text-decoration: none;
+ align-self: flex-start;
+ margin-left: 10em;
+ text-shadow: 1px 1px 1px dimgray;
+}
+#one:before {
+ content: "\2446";
+ font-size: 3em;
+}
+#two:before {
+ content: "\2447";
+ font-size: 3em;
+}
+#three:before {
+ content: "\2448";
+ font-size: 3em;
+}
