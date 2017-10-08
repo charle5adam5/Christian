@@ -53,3 +53,37 @@ a {
  content: "\2448";
  font-size: 3em;
 }
+
+@media screen and (max-width: 900px) {
+  #info {
+    width: 35em;
+  }
+  #nav {
+    width: 35em;
+  }
+  a {
+    margin-left: 7.5em;
+  }
+}
+@media screen and (max-width: 650px) {
+  #info {
+    width: 25em;
+  }
+  #nav {
+    width: 25em;
+  }
+  a {
+    margin-left: 3em;
+  }
+}
+@media screen and (max-width: 550px) {
+  #info {
+    width: 20em;
+  }
+  #nav {
+    width: 20em;
+  }
+  a {
+    margin-left: 1em;
+  }
+}
